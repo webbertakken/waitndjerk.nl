@@ -49,7 +49,7 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/webbertakken/waitndjerk.nl',
             label: 'GitHub',
