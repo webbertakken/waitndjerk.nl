@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Wäit'ndjerk",
-  tagline: 'Waaver Vjeans en Alle Vässies',
+  tagline: 'Waaver Vjèèns en Alle Vässies',
   url: 'https://waitndjerk.nl',
   baseUrl: '/',
   onBrokenLinks: 'throw',
