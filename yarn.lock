@@ -1431,7 +1431,7 @@
     "@docusaurus/utils-validation" "2.1.0"
     tslib "^2.4.0"
 
-"@docusaurus/plugin-ideal-image@^2.1.0":
+"@docusaurus/plugin-ideal-image@2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-ideal-image/-/plugin-ideal-image-2.1.0.tgz#a734a88bfcb1a271fc28484b9c6e89d8ed1a426a"
   integrity sha512-Yzi4Yg11U5M38FaKkvYsmYl/9ZkdDoI3f69K+CAWEH/S81DdZ3V/SVfjXHkVVlihRejlquuHYJ64P0Sc8GDtjA==
