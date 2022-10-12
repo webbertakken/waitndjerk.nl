@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wäit\'ndjerk',
+  title: "Wäit'ndjerk",
   tagline: 'Waaver Vjeans en Alle Vässies',
   url: 'https://waitndjerk.nl',
   baseUrl: '/',
@@ -17,20 +17,36 @@ const config = {
     defaultLocale: 'nl',
     locales: ['nl'],
   },
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1320, // max resized image's size.
+        min: 640, // if original is lower, use this size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'poems',
+          breadcrumbs: true,
+          showLastUpdateTime: true,
+          sidebarCollapsed: false,
+          include: ['**/*.md', '**/*.mdx'],
+          routeBasePath: 'gedichten',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/webbertakken/waitndjerk.nl/tree/main/',
+          editUrl: 'https://github.com/webbertakken/waitndjerk.nl/tree/main/',
         },
         blog: {
           showReadingTime: false,
-          editUrl:
-            'https://github.com/webbertakken/waitndjerk.nl/tree/main/',
+          editUrl: 'https://github.com/webbertakken/waitndjerk.nl/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,13 +59,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Wäit\'ndjerk',
+        title: "Wäit'ndjerk",
         logo: {
-          alt: 'Wäit\'ndjerk',
+          alt: "Wäit'ndjerk",
           src: 'img/logo.png',
         },
         items: [
           // {to: '/blog', label: 'Blog', position: 'left'},
+          { type: 'doc', docId: 'index', label: 'Gedichten', position: 'left' },
           {
             href: 'https://github.com/webbertakken/waitndjerk.nl',
             label: 'GitHub',
