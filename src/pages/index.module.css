@@ -8,7 +8,7 @@
   flex-direction: row-reverse;
   min-height: calc(100vh - var(--ifm-navbar-height));
   padding: 2rem;
-  background: url('/img/background.jpg') no-repeat 70% 50%;
+  background: url('/images/background.jpg') no-repeat 70% 50%;
   background-size: cover;
 }
 
