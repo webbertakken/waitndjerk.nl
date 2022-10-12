@@ -1,11 +1,11 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import DerkWebbinkFauteuil from '../../assets/images/derk-webbink-fauteuil.jpg';
-import DerkWebbinkGarden from '../../assets/images/derk-webbink-garden.jpg';
+import DerkWebbinkFauteuil from '../../static/images/derk-webbink-fauteuil.jpg';
+import DerkWebbinkGarden from '../../static/images/derk-webbink-garden.jpg';
 
 import styles from './index.module.css';
-import IdealImage from '@theme/IdealImage';
+import Image from '@theme/Image';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -38,7 +38,7 @@ export default function Home() {
             gezellig en velen bleven bij ons koffie drinken aan de ronde tafel in de woonkamer.
           </p>
 
-          <IdealImage img={DerkWebbinkFauteuil} alt="Derk Webbink in een fauteuil" />
+          <Image src={DerkWebbinkFauteuil} alt="Derk Webbink in een fauteuil" />
 
           <p>
             Meer nog dan van de schoenenzaak hield hij van de natuur. Hij wandelde, kende alle
@@ -52,7 +52,7 @@ export default function Home() {
             vrouw.
           </p>
 
-          <IdealImage img={DerkWebbinkGarden} alt="Derk Webbink in zijn moestuin" />
+          <Image src={DerkWebbinkGarden} alt="Derk Webbink in zijn moestuin" />
         </div>
       </main>
     </Layout>

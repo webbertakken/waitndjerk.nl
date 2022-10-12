@@ -12,21 +12,22 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'images/favicon.ico',
   i18n: {
     defaultLocale: 'nl',
     locales: ['nl'],
   },
   plugins: [
-    [
-      '@docusaurus/plugin-ideal-image',
-      {
-        quality: 70,
-        max: 1320, // max resized image's size.
-        min: 640, // if original is lower, use this size.
-        steps: 2, // the max number of images generated between min and max (inclusive)
-      },
-    ],
+    // [
+    //   '@docusaurus/plugin-ideal-image',
+    //   {
+    //     quality: 70,
+    //     max: 1320, // max resized image's size.
+    //     min: 640, // if original is lower, use this size.
+    //     steps: 2, // the max number of images generated between min and max (inclusive)
+    //     disableInDev: false,
+    //   },
+    // ],
   ],
   presets: [
     [
@@ -61,7 +62,7 @@ const config = {
         title: "Wäit'ndjerk",
         logo: {
           alt: "Wäit'ndjerk",
-          src: 'img/logo.png',
+          src: 'images/logo.png',
         },
         items: [
           // {to: '/blog', label: 'Blog', position: 'left'},
