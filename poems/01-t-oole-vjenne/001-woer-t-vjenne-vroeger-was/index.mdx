@@ -2,13 +2,18 @@
 sidebar_position: 1
 ---
 
-import Poem from '@theme/Poem';
 import Image from '@theme/Image';
-import theBrook from '../../static/images/the-brook.jpg';
+import PoemText from '@theme/PoemText';
+import PoemAudio from '../../../src/theme/PoemAudio';
+import theBrook from '../../../static/images/the-brook.jpg';
+import fragment from "./001 Woer t'Vjenne vroeger was.mp3";
+import { readers } from '../../readers';
 
 # Woer ’t Vjenne vroeger was
 
-<Poem>
+<PoemAudio src={fragment} reader={readers.bert} />
+
+<PoemText>
 
 ’t Is nog ageet’nt långe elieën
 de öldern kjönt ’t nog weet’n
@@ -90,4 +95,4 @@ op eig’n beine wil e staon
 en zonder God duur ’t ljääv’n gaon
 hij zal zich naar vergiss’n.
 
-</Poem>
+</PoemText>
