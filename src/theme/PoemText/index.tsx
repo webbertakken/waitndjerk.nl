@@ -6,7 +6,7 @@ interface Props {
   children: string;
 }
 
-const Poem = ({ children }: Props): JSX.Element => {
+const PoemText = ({ children }: Props): JSX.Element => {
   return (
     <div>
       <div className={styles.poem}>{children}</div>
@@ -14,4 +14,4 @@ const Poem = ({ children }: Props): JSX.Element => {
   );
 };
 
-export default Poem;
+export default PoemText;
