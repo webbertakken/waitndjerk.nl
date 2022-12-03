@@ -38,7 +38,7 @@ const config = {
           path: 'poems',
           breadcrumbs: true,
           showLastUpdateTime: true,
-          sidebarCollapsed: false,
+          sidebarCollapsed: true,
           include: ['**/*.md', '**/*.mdx'],
           routeBasePath: 'gedichten',
           sidebarPath: require.resolve('./sidebars.js'),
