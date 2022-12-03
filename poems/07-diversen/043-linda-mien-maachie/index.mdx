@@ -2,12 +2,17 @@ import PoemText from '@theme/PoemText';
 import PoemAudio from '../../../src/theme/PoemAudio';
 import fragment from './043 Linda mien maachie.mp3';
 import { readers } from '../../readers';
+import Image from '@theme/Image';
+import gedichtVoorLinda from './linda-mien-maachie.jpg';
+import meisjeMetBloemen from './werkje-meisje-met-bloemen.jpg';
 
 # Linda, mienn määchie
 
 <em>'t Vjenne 13 Sept 1980</em>
 
 <PoemAudio src={fragment} performer={readers.ineke} />
+
+<Image src={meisjeMetBloemen} alt="Werkje van meisje met bloemen" />
 
 <PoemText>
 
@@ -38,3 +43,8 @@ Den dit hef eskrieev'n
 Vuur die
 
 </PoemText>
+
+<Image
+  src={gedichtVoorLinda}
+  alt={'Handgeschreven gedicht in het boekexemplaar van Linda, "mien määchie"'}
+/>
