@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </header>
 
-        <div className="container" style={{ padding: '4em 0' }}>
+        <div className={styles.container}>
           <h2>Derk Webbink</h2>
 
           <sup>1926 - 1982†</sup>
