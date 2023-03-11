@@ -1,0 +1,12 @@
+.banner {
+  background-color: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-800);
+  padding: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 2em var(--ifm-spacing-horizontal);
+  width: 100%;
+}
