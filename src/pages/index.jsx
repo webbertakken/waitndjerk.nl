@@ -6,7 +6,7 @@ import DerkWebbinkGarden from '../../static/images/derk-webbink-garden.jpg';
 
 import styles from './index.module.css';
 import Image from '@theme/Image';
-import Banner from '../components/banner/Banner';
+// import Banner from '../components/banner/Banner';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -16,25 +16,25 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <main>
-        <Banner>
-          <p>
-            Maart is de <strong>Maand van het Dialect</strong>. Een evenement dat jaarlijks
-            plaatsvindt in Nederland en België. Tijdens deze maand wordt extra aandacht besteed aan
-            de dialecten die in verschillende regio's gesproken worden.
-          </p>
+        {/*<Banner>*/}
+        {/*  <p>*/}
+        {/*    Maart is de <strong>Maand van het Dialect</strong>. Een evenement dat jaarlijks*/}
+        {/*    plaatsvindt in Nederland en België. Tijdens deze maand wordt extra aandacht besteed aan*/}
+        {/*    de dialecten die in verschillende regio's gesproken worden.*/}
+        {/*  </p>*/}
 
-          <p>
-            Onze bundel "Vässies" is daarom tijdelijk te koop voor €10,- in Christelijk boekenhuis{' '}
-            <a target="_blank" href="http://www.akkerboek.nl/">
-              De Akker
-            </a>{' '}
-            of te bestellen door door een e-mailbericht te sturen naar{' '}
-            <a target="_blank" href="mailto:waitndjerk@gmail.com">
-              waitndjerk@gmail.com
-            </a>
-            .
-          </p>
-        </Banner>
+        {/*  <p>*/}
+        {/*    Onze bundel "Vässies" is daarom tijdelijk te koop voor €10,- in Christelijk boekenhuis{' '}*/}
+        {/*    <a target="_blank" href="http://www.akkerboek.nl/">*/}
+        {/*      De Akker*/}
+        {/*    </a>{' '}*/}
+        {/*    of te bestellen door door een e-mailbericht te sturen naar{' '}*/}
+        {/*    <a target="_blank" href="mailto:waitndjerk@gmail.com">*/}
+        {/*      waitndjerk@gmail.com*/}
+        {/*    </a>*/}
+        {/*    .*/}
+        {/*  </p>*/}
+        {/*</Banner>*/}
 
         <header className={styles.header}>
           <div className={styles.title}>
