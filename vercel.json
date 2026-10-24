@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "(ldconfig -p | grep -q libatomic.so.1 || dnf install -y libatomic) && ./bin/mise install && ./bin/mise exec -- yarn install --immutable",
+  "buildCommand": "./bin/mise exec -- yarn build",
+  "outputDirectory": "build"
+}
