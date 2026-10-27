@@ -1,11 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>webbertakken/.github:renovate-config"],
-  "packageRules": [
-    {
-      "description": "Docusaurus 2 calls ReactDOM.hydrate/render, which React 18+ deprecates and 19 removes; hold React 17 until Docusaurus 3",
-      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"],
-      "allowedVersions": "<18"
-    }
-  ]
+  "extends": ["local>webbertakken/.github:renovate-config"]
 }
