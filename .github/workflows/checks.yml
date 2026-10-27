@@ -57,3 +57,6 @@ jobs:
 
       - name: Test
         run: yarn coverage
+
+      - name: Build
+        run: yarn build
