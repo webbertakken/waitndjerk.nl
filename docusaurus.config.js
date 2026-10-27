@@ -13,7 +13,11 @@ const config = {
   url: 'https://waitndjerk.nl',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'images/favicon.ico',
   i18n: {
     defaultLocale: 'nl',
