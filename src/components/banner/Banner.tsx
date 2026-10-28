@@ -5,7 +5,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-const Banner = ({ children }: Props): JSX.Element => {
+const Banner = ({ children }: Props): React.JSX.Element => {
   return (
     <div className={styles.banner}>
       <div className={styles.container}>{children}</div>

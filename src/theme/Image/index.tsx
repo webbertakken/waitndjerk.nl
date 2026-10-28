@@ -7,7 +7,7 @@ interface Props {
   year?: number;
 }
 
-const Image = ({ src, alt, year, ...props }: Props): JSX.Element => {
+const Image = ({ src, alt, year, ...props }: Props): React.JSX.Element => {
   return (
     <div className={styles.wrapper}>
       <img className={styles.image} {...props} src={src} alt={alt} />
