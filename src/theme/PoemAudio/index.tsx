@@ -9,7 +9,7 @@ interface Props {
   isSong?: boolean;
 }
 
-const PoemAudio = (props: Props): JSX.Element => {
+const PoemAudio = (props: Props): React.JSX.Element => {
   const { performer, isSong, ...audioProps } = props;
   return (
     <div className={styles.main}>

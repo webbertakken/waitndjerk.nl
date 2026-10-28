@@ -6,7 +6,7 @@ interface Props {
   children: string;
 }
 
-const PoemText = ({ children }: Props): JSX.Element => {
+const PoemText = ({ children }: Props): React.JSX.Element => {
   return (
     <div>
       <div className={styles.poem}>{children}</div>
