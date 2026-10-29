@@ -90,5 +90,8 @@
     "sharp": {
       "built": true
     }
+  },
+  "resolutions": {
+    "serialize-javascript": "^7.1.4"
   }
 }
