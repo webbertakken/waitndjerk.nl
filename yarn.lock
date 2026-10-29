@@ -7194,10 +7194,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "deepmerge@npm:4.3.1"
-  checksum: 10/058d9e1b0ff1a154468bf3837aea436abcfea1ba1d165ddaaf48ca93765fdd01a30d33c36173da8fbbed951dd0a267602bc782fe288b0fc4b7e1e7091afc4529
+"deepmerge@npm:@fastify/deepmerge@^3.2.4":
+  version: 3.2.4
+  resolution: "@fastify/deepmerge@npm:3.2.4"
+  checksum: 10/726c63274bb54c4a40300969d2c392eddc086e7ea78e7b5cca7f5d49481f817523dca822aaacbc14db6d0849a6ddcc7a6f4a28988c7719ecc76aad734d9c1c87
   languageName: node
   linkType: hard
 
