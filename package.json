@@ -96,6 +96,8 @@
     "serialize-javascript": "^7.1.4",
     "sharp": "^0.35.5",
     "sockjs/uuid": "^14.0.0",
-    "@svgr/plugin-svgo/deepmerge": "npm:@fastify/deepmerge@^3.2.4"
+    "@svgr/plugin-svgo/deepmerge": "npm:@fastify/deepmerge@^3.2.4",
+    "minimatch": "^11.0.3",
+    "serve-handler@npm:^6.1.7": "patch:serve-handler@npm%3A6.1.7#~/.yarn/patches/serve-handler-npm-6.1.7-b26917d24b.patch"
   }
 }
