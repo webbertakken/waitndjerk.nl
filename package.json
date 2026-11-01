@@ -58,7 +58,7 @@
     "happy-dom": "^21.0.0",
     "husky": "9",
     "lint-staged": "^17.0.0",
-    "oxfmt": "^0.48.0",
+    "oxfmt": "^0.75.0",
     "oxlint": "^1.63.0",
     "typescript": "^7.0.0",
     "vite": "^8.0.0",
@@ -92,7 +92,7 @@
     }
   },
   "resolutions": {
-    "oxfmt/tinypool": "2.1.2",
+    "@docusaurus/core/tinypool": "^2.1.2",
     "serialize-javascript": "^7.1.4",
     "sharp": "^0.35.5",
     "sockjs/uuid": "^14.0.0",
